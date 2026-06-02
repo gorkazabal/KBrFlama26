@@ -164,6 +164,18 @@ figcaption .wk{ font-style:italic; color:var(--muted); }
 .maplink:hover{ background:#16140f; color:var(--paper); }
 @media(max-width:760px){ .info, .visit__where{ grid-template-columns:1fr; } }
 
+/* ---------- COLABORADORES ---------- */
+.collab{ margin-top:clamp(40px,6vw,80px); border-top:2px solid #16140f; padding-top:30px; }
+.collab__head{ display:flex; align-items:baseline; gap:16px; flex-wrap:wrap; margin-bottom:clamp(28px,4vw,48px); }
+.collab__head .kicker{ color:rgba(22,20,15,.5); }
+.collab__sub{ margin-left:auto; font-size:15px; color:rgba(22,20,15,.62); }
+.collab__grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:clamp(20px,3vw,40px); align-items:center; }
+.collab__logo{ display:flex; align-items:center; justify-content:center; min-height:78px; padding:6px; transition:opacity .3s var(--ease), transform .3s var(--ease); }
+.collab__logo img{ max-height:62px; max-width:100%; width:auto; object-fit:contain; mix-blend-mode:multiply; opacity:.82; transition:opacity .3s; }
+.collab__logo:hover{ transform:translateY(-2px); }
+.collab__logo:hover img{ opacity:1; }
+@media(max-width:680px){ .collab__grid{ grid-template-columns:repeat(2,1fr); gap:28px 24px; } .collab__sub{ margin-left:0; } }
+
 /* ============================================================
    FOOTER
    ============================================================ */

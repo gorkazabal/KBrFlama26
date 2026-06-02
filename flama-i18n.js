@@ -43,6 +43,8 @@ window.FLAMA_I18N = {
     where_addr: "KBr Fundación MAPFRE<br>Av. del Litoral, 30 · 08005 Barcelona",
     where_tel: "Tel. (+34) 932 723 180",
     map_btn: "Cómo llegar",
+    collab_kicker: "Con la colaboración de",
+    collab_title: "Cuatro escuelas de fotografía",
     foot_tag: "Fotografía · Foto · Cultura",
     foot_collab: "Con la colaboración de Fundación MAPFRE",
     totop: "Volver arriba"
@@ -88,6 +90,8 @@ window.FLAMA_I18N = {
     where_addr: "KBr Fundación MAPFRE<br>Av. del Litoral, 30 · 08005 Barcelona",
     where_tel: "Tel. (+34) 932 723 180",
     map_btn: "Com arribar-hi",
+    collab_kicker: "Amb la col·laboració de",
+    collab_title: "Quatre escoles de fotografia",
     foot_tag: "Fotografia · Foto · Cultura",
     foot_collab: "Amb la col·laboració de Fundación MAPFRE",
     totop: "Tornar a dalt"
@@ -133,6 +137,8 @@ window.FLAMA_I18N = {
     where_addr: "KBr Fundación MAPFRE<br>Av. del Litoral, 30 · 08005 Barcelona",
     where_tel: "Tel. (+34) 932 723 180",
     map_btn: "Get directions",
+    collab_kicker: "In collaboration with",
+    collab_title: "Four photography schools",
     foot_tag: "Photography · Photo · Culture",
     foot_collab: "In collaboration with Fundación MAPFRE",
     totop: "Back to top"
@@ -178,6 +184,8 @@ window.FLAMA_I18N = {
     where_addr: "KBr Fundación MAPFRE<br>Av. del Litoral, 30 · 08005 巴塞隆納",
     where_tel: "電話 (+34) 932 723 180",
     map_btn: "如何前往",
+    collab_kicker: "合作單位",
+    collab_title: "四所攝影學校",
     foot_tag: "攝影 · 影像 · 文化",
     foot_collab: "由 Fundación MAPFRE 協力支持",
     totop: "回到頂部"
