@@ -29,7 +29,8 @@
   <div class="langs" role="group" aria-label="Idioma">
     <button data-lang="es">ES</button><span class="sep">/</span>
     <button data-lang="ca">CA</button><span class="sep">/</span>
-    <button data-lang="en">EN</button>
+    <button data-lang="en">EN</button><span class="sep">/</span>
+    <button data-lang="zh">中文</button>
   </div>
 </nav>
 
@@ -61,10 +62,10 @@
     </div>
     <p class="intro__lead lead reveal d1" data-i18n="intro_lead">Cuatro fotógrafos seleccionados por escuelas de fotografía de Barcelona.</p>
     <div class="intro__cols">
-      <div class="it reveal d1"><div class="t" data-i18n="intro_1t">Alan Balzac</div><div class="d" data-i18n="intro_1d"></div></div>
-      <div class="it reveal d1"><div class="t" data-i18n="intro_2t">Ivette Blaya</div><div class="d" data-i18n="intro_2d"></div></div>
-      <div class="it reveal d2"><div class="t" data-i18n="intro_3t">Rocío Madrid</div><div class="d" data-i18n="intro_3d"></div></div>
-      <div class="it reveal d2"><div class="t" data-i18n="intro_4t">Lucía Morón</div><div class="d" data-i18n="intro_4d"></div></div>
+      <a class="it reveal d1" href="#a-balzac"><div class="t" data-i18n="intro_1t">Alan Balzac</div><div class="d" data-i18n="intro_1d"></div><span class="go" data-i18n="see_work">Ver obra →</span></a>
+      <a class="it reveal d1" href="#a-blaya"><div class="t" data-i18n="intro_2t">Ivette Blaya</div><div class="d" data-i18n="intro_2d"></div><span class="go" data-i18n="see_work">Ver obra →</span></a>
+      <a class="it reveal d2" href="#a-madrid"><div class="t" data-i18n="intro_3t">Rocío Madrid</div><div class="d" data-i18n="intro_3d"></div><span class="go" data-i18n="see_work">Ver obra →</span></a>
+      <a class="it reveal d2" href="#a-moron"><div class="t" data-i18n="intro_4t">Lucía Morón</div><div class="d" data-i18n="intro_4d"></div><span class="go" data-i18n="see_work">Ver obra →</span></a>
     </div>
   </div>
 </section>
@@ -79,7 +80,7 @@
   </div>
 
   <!-- 01 · Alan Balzac -->
-  <article class="artist wrap" data-screen-label="Alan Balzac">
+  <article class="artist wrap" id="a-balzac" data-screen-label="Alan Balzac">
     <header class="artist__head">
       <div>
         <div class="artist__num reveal">01 — 04</div>
@@ -92,14 +93,14 @@
       <img src="images/balzac-3.jpg" data-full="images/balzac-3.jpg" alt="Alan Balzac, La muerte de la identidad" loading="lazy">
       <figcaption><span class="wk">La muerte de la identidad</span><span>2021 · © Alan Balzac</span></figcaption>
     </figure>
-    <div class="masonry">
-      <figure class="shot reveal"><img src="images/balzac-2.jpg" data-full="images/balzac-2.jpg" alt="Alan Balzac" loading="lazy"><figcaption><span class="wk">La muerte de la identidad</span><span>2021 · © Alan Balzac</span></figcaption></figure>
-      <figure class="shot reveal d1"><img src="images/balzac-4.jpg" data-full="images/balzac-4.jpg" alt="Alan Balzac" loading="lazy"><figcaption><span class="wk">La muerte de la identidad</span><span>2022 · © Alan Balzac</span></figcaption></figure>
+    <div class="grow-row">
+      <figure class="shot reveal" style="flex-grow:1.52"><img src="images/balzac-2.jpg" data-full="images/balzac-2.jpg" alt="Alan Balzac" loading="lazy"><figcaption><span class="wk">La muerte de la identidad</span><span>2021 · © Alan Balzac</span></figcaption></figure>
+      <figure class="shot reveal d1" style="flex-grow:1.50"><img src="images/balzac-4.jpg" data-full="images/balzac-4.jpg" alt="Alan Balzac" loading="lazy"><figcaption><span class="wk">La muerte de la identidad</span><span>2022 · © Alan Balzac</span></figcaption></figure>
     </div>
   </article>
 
   <!-- 02 · Ivette Blaya -->
-  <article class="artist wrap" data-screen-label="Ivette Blaya">
+  <article class="artist wrap" id="a-blaya" data-screen-label="Ivette Blaya">
     <header class="artist__head">
       <div>
         <div class="artist__num reveal">02 — 04</div>
@@ -112,14 +113,14 @@
       <img src="images/blaya-5.jpg" data-full="images/blaya-5.jpg" alt="Ivette Blaya, Simplemente cortando" loading="lazy">
       <figcaption><span class="wk">Simplemente cortando</span><span>2022 · © Ivette Blaya</span></figcaption>
     </figure>
-    <div class="masonry">
-      <figure class="shot reveal"><img src="images/blaya-6.jpg" data-full="images/blaya-6.jpg" alt="Ivette Blaya" loading="lazy"><figcaption><span class="wk">Simplemente cortando</span><span>2022 · © Ivette Blaya</span></figcaption></figure>
-      <figure class="shot reveal d1"><img src="images/blaya-7.jpg" data-full="images/blaya-7.jpg" alt="Ivette Blaya" loading="lazy"><figcaption><span class="wk">Simplemente cortando</span><span>2022 · © Ivette Blaya</span></figcaption></figure>
+    <div class="grow-row">
+      <figure class="shot reveal" style="flex-grow:1.50"><img src="images/blaya-6.jpg" data-full="images/blaya-6.jpg" alt="Ivette Blaya" loading="lazy"><figcaption><span class="wk">Simplemente cortando</span><span>2022 · © Ivette Blaya</span></figcaption></figure>
+      <figure class="shot reveal d1" style="flex-grow:1.50"><img src="images/blaya-7.jpg" data-full="images/blaya-7.jpg" alt="Ivette Blaya" loading="lazy"><figcaption><span class="wk">Simplemente cortando</span><span>2022 · © Ivette Blaya</span></figcaption></figure>
     </div>
   </article>
 
   <!-- 03 · Rocío Madrid -->
-  <article class="artist wrap" data-screen-label="Rocío Madrid">
+  <article class="artist wrap" id="a-madrid" data-screen-label="Rocío Madrid">
     <header class="artist__head">
       <div>
         <div class="artist__num reveal">03 — 04</div>
@@ -132,16 +133,18 @@
       <img src="images/madrid-11.jpg" data-full="images/madrid-11.jpg" alt="Rocío Madrid, Melilla" loading="lazy">
       <figcaption><span class="wk">Melilla</span><span>2023 · © Rocío Madrid</span></figcaption>
     </figure>
-    <div class="masonry">
-      <figure class="shot reveal"><img src="images/madrid-7.jpg" data-full="images/madrid-7.jpg" alt="Rocío Madrid, Melilla" loading="lazy"><figcaption><span class="wk">Melilla</span><span>2022 · © Rocío Madrid</span></figcaption></figure>
-      <figure class="shot reveal d1"><img src="images/madrid-9.jpg" data-full="images/madrid-9.jpg" alt="Rocío Madrid, Melilla" loading="lazy"><figcaption><span class="wk">Melilla</span><span>2021 · © Rocío Madrid</span></figcaption></figure>
-      <figure class="shot reveal"><img src="images/madrid-8.jpg" data-full="images/madrid-8.jpg" alt="Rocío Madrid, Melilla" loading="lazy"><figcaption><span class="wk">Melilla</span><span>2021 · © Rocío Madrid</span></figcaption></figure>
-      <figure class="shot reveal d1"><img src="images/madrid-10.jpg" data-full="images/madrid-10.jpg" alt="Rocío Madrid, Melilla" loading="lazy"><figcaption><span class="wk">Melilla</span><span>2021 · © Rocío Madrid</span></figcaption></figure>
+    <div class="grow-row">
+      <figure class="shot reveal" style="flex-grow:0.67"><img src="images/madrid-7.jpg" data-full="images/madrid-7.jpg" alt="Rocío Madrid, Melilla" loading="lazy"><figcaption><span class="wk">Melilla</span><span>2022 · © Rocío Madrid</span></figcaption></figure>
+      <figure class="shot reveal d1" style="flex-grow:1.49"><img src="images/madrid-9.jpg" data-full="images/madrid-9.jpg" alt="Rocío Madrid, Melilla" loading="lazy"><figcaption><span class="wk">Melilla</span><span>2021 · © Rocío Madrid</span></figcaption></figure>
+    </div>
+    <div class="grow-row">
+      <figure class="shot reveal" style="flex-grow:0.67"><img src="images/madrid-8.jpg" data-full="images/madrid-8.jpg" alt="Rocío Madrid, Melilla" loading="lazy"><figcaption><span class="wk">Melilla</span><span>2021 · © Rocío Madrid</span></figcaption></figure>
+      <figure class="shot reveal d1" style="flex-grow:0.67"><img src="images/madrid-10.jpg" data-full="images/madrid-10.jpg" alt="Rocío Madrid, Melilla" loading="lazy"><figcaption><span class="wk">Melilla</span><span>2021 · © Rocío Madrid</span></figcaption></figure>
     </div>
   </article>
 
   <!-- 04 · Lucía Morón -->
-  <article class="artist wrap" data-screen-label="Lucía Morón">
+  <article class="artist wrap" id="a-moron" data-screen-label="Lucía Morón">
     <header class="artist__head">
       <div>
         <div class="artist__num reveal">04 — 04</div>
@@ -154,10 +157,9 @@
       <img src="images/moron-14.jpg" data-full="images/moron-14.jpg" alt="Lucía Morón, Sola" loading="lazy">
       <figcaption><span class="wk">Sola</span><span>2021 · © Lucía Morón</span></figcaption>
     </figure>
-    <figure class="shot lead-img reveal d1">
-      <img src="images/moron-12.jpg" data-full="images/moron-12.jpg" alt="Lucía Morón, Sólo tengo la huella" loading="lazy">
-      <figcaption><span class="wk">Sólo tengo la huella</span><span>2021 · © Lucía Morón</span></figcaption>
-    </figure>
+    <div class="grow-row">
+      <figure class="shot reveal d1" style="flex-grow:1.50"><img src="images/moron-12.jpg" data-full="images/moron-12.jpg" alt="Lucía Morón, Sólo tengo la huella" loading="lazy"><figcaption><span class="wk">Sólo tengo la huella</span><span>2021 · © Lucía Morón</span></figcaption></figure>
+    </div>
   </article>
 </section>
 
